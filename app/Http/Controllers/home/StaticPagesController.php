@@ -13,6 +13,16 @@ class StaticPagesController extends HomeController
 {
     public function index()
     {
-        return view('home/index/index');
+        return view('home/staticPages/index');
+    }
+
+    public function help()
+    {
+        return view('home/staticPages/help');
+    }
+
+    public function about()
+    {
+        return view('home/staticPages/about');
     }
 }

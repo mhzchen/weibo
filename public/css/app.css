@@ -10928,3 +10928,20 @@ a.text-dark:focus {
   }
 }
 
+.logo {
+  display: block;
+  margin-left: 15px;
+  width: 90px;
+  height: 48px;
+  cursor: pointer;
+  background: url("/images/site/WB_logo.png") no-repeat 0 40%;
+}
+
+.content {
+  margin-top: 90px;
+}
+
+.bottom ul {
+  margin: 0 auto;
+}
+

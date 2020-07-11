@@ -14,7 +14,7 @@
                     ['name' => __('site.video'),'url' => url('/')],
                     ['name' => __('site.find'),'url' => url('/')],
                     ['name' => __('site.game'),'url' => url('/')],
-                    ['name' => __('site.reg'),'url' => url('/')],
+                    ['name' => __('site.reg'),'url' => url('/signup')],
                     ['name' => __('site.sign_in'),'url' => url('/')],
                 ];
             @endphp

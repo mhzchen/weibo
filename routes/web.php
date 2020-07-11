@@ -15,4 +15,8 @@ use Illuminate\Support\Facades\Route;
 
 Route::namespace('home')->group(function(){
     Route::get('/','StaticPagesController@index');
+    Route::get('/help','StaticPagesController@help');
+    Route::get('/about','StaticPagesController@about');
+
+    Route::resource('users','UserController');
 });
